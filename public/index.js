@@ -10,7 +10,7 @@ var networkdot_stroke_color = 'white';
 // var networkdot_color = '#51D0FD';
 // var networkdot_stroke_color = '#FFE40A';
 var mixer_bg = true;
-var mixer_bg_color = new Color(1, 0.95, 0.71, 0.5); // buttermilk, opacity 50%
+var mixer_bg_color = new Color(1, 1, 1, 0.3); // buttermilk, opacity 50%
 
 $(document).ready(function() {
 
@@ -146,7 +146,7 @@ $(document).ready(function() {
                   radius: vssw * 0.4,
                   size: [vssw * 1.5, vssw * 0.7],
                   fillColor: new Color({
-                    hue: getRandom(20, 60),
+                    hue: getRandom(180, 200),
                     saturation: 1,
                     brightness: 1
                   }),
@@ -190,7 +190,7 @@ $(document).ready(function() {
                   radius: vssw * 0.4,
                   size: [vssw * 1.6, vssw * 0.7],
                   fillColor: new Color({
-                    hue: getRandom(120, 180),
+                    hue: getRandom(200, 220),
                     saturation: 1,
                     brightness: 1
                   }),
@@ -224,7 +224,7 @@ $(document).ready(function() {
                   radius: vssw * 0.4,
                   size: [vssw * 1.6, vssw * 0.7],
                   strokeColor: new Color({
-                    hue: getRandom(20, 60),
+                    hue: getRandom(180, 200),
                     saturation: 1,
                     brightness: 1
                   }),
@@ -270,7 +270,7 @@ $(document).ready(function() {
                   radius: vssw * 0.4,
                   size: [vssw * 1.6, vssw * 0.7],
                   strokeColor: new Color({
-                    hue: getRandom(120, 180),
+                    hue: getRandom(200, 220),
                     saturation: 1,
                     brightness: 1
                   }),
